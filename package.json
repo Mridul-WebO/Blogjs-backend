@@ -1,0 +1,26 @@
+{
+  "name": "blogjs-backend",
+  "version": "1.0.0",
+  "description": "This is a blog app",
+  "main": "app.ts",
+  "scripts": {
+    "start": "nodemon ./dist/app.js ",
+    "dev": "nodemon ./src/app.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mridul|Ashish",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.5.1",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
